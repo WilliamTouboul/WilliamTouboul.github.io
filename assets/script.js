@@ -7,12 +7,13 @@
       }
   });
 
-  $('.back-to-top').click(function () {
-      $('html, body').animate({
-          scrollTop: 0
-      }, 1500, 'easeInOutExpo');
-      return false;
-  });
+  // Animation back to top bug.
+  // $('.back-to-top').click(function () {
+  //     $('html, body').animate({
+  //         scrollTop: 0
+  //     }, 1500, 'easeInOutExpo');
+  //     return false;
+  // });
 
 $(function() {
     $("li").click(function() {
@@ -48,3 +49,4 @@ $(function() {
       }
     });
   });
+

@@ -16,12 +16,13 @@
 /* /FONT */
 body {
     font-family: 'Open Sans';
-    background-color :#FFFCD9;
+    background-color: #FFFCD9;
     background-attachment: fixed;
     color: #151716;
 }
+
 a:hover {
-    color : #3a3c55;
+    color: #3a3c55;
 }
 
 
@@ -40,7 +41,7 @@ a:hover {
     transition: all 0.5s;
     padding: 15px;
     overflow-y: auto;
-    background-color : #FFFCD9;
+    background-color: #FFFCD9;
 }
 
 .nav-menu a {
@@ -81,23 +82,24 @@ a {
 .nav-menu .active>a,
 .nav-menu li:hover>a {
     color: #FFFCD9;
-    background:#9c3933;
+    background: #9c3933;
 }
 
 #banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left : 80px;
+    margin-left: 80px;
 }
 
 #bannerTitle {
     color: #151716;
-    font-size : 108px;
+    font-size: 108px;
 }
+
 #bannerSubtitle {
-    color : #9c3933;
-    font-size : 42px;
+    color: #9c3933;
+    font-size: 42px;
 }
 
 .back-to-top {
@@ -108,7 +110,7 @@ a {
     border-radius: 50px;
     right: 15px;
     bottom: 15px;
-    background:#9c3933;
+    background: #9c3933;
     color: #FFFCD9;
     transition: display 0.5s ease-in-out;
     z-index: 99999;
@@ -127,7 +129,7 @@ a {
 
 .back-to-top:hover {
     color: black;
-    background:#3a3c55;
+    background: #3a3c55;
     transition: background 0.2s ease-in-out;
 }
 
@@ -147,46 +149,79 @@ a {
 ul {
     list-style-type: none;
 }
- 
+
 .ml6 {
     position: relative;
     font-weight: 900;
     font-size: 3.3em;
-  }
-  
-  .ml6 .text-wrapper {
+}
+
+.ml6 .text-wrapper {
     position: relative;
     display: inline-block;
     padding-top: 0.2em;
     padding-right: 0.05em;
     padding-bottom: 0.1em;
     overflow: hidden;
-  }
-  
-  .ml6 .letter {
+}
+
+.ml6 .letter {
     display: inline-block;
     line-height: 1em;
-  }
-
-  footer {
-      margin-top : 120px;
-  }
-  #contactFirstCol, #contactSecondCol {
-      padding-left: 100px;
-      padding-right : 100px;
-  }
-
-  .footerLink {
-      text-decoration : none;
-      color : #9c3933;
-  }
-
-
-.courseDate  {
-    color : #9c3933;
-    font-weight: bold;
-    font-size : 18px;
 }
+
+footer {
+    margin-top: 120px;
+}
+
+#contactFirstCol,
+#contactSecondCol {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: #9c3933;
+}
+
+
+.courseDate {
+    color: #9c3933;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .courseForm {
     font-weight: bold;
+}
+
+#profilCenter {
+    background-color: #3a3c55;
+    color: #FFFCD9;
+    border-radius: 3px;
+    padding-top: 14px;
+}
+
+.language {
+    font-weight: bold;
+    font-size: 18px;
+    color: #9c3933;
+}
+
+#CVDL {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#contactSecondCol>div>ul>li {
+    /* padding-top: 80px; */
+    margin-top: 10px;
+}
+
+.listCompSkillsElements {
+    font-weight: bold;
+    font-size: 18px;
+    color: #9c3933;
 }
